@@ -1,0 +1,51 @@
+---
+title: "Assignment_1_Becker"
+author: "Anton Becker"
+date: "2024-04-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r cars}
+#1
+a = 5 
+b = 2
+
+#2 
+r1 = a + b
+r2 = a - b
+r3 = a * b
+r4 = a / b 
+
+#3 
+v1 <- c(r1, r2, r3,r4)
+
+#4 
+v1 <- c(v1, a**b)
+
+#5
+print(v1)
+
+#6 
+v2 <- c("sum","difference","product","ratio","power")
+
+#7
+print(v2)
+
+#8+9
+df <- data.frame(Results = v1, Operation = v2)
+
+#10
+print(df)
+
+#11
+print(df[2, 1])
+
+```
+
+
+```
+
